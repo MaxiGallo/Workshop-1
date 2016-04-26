@@ -1,0 +1,114 @@
+body{
+	font-family: 'montserrat',sans-serif; color:white;
+}
+.navHeader{
+	background-color: #2b3e4f;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+}
+
+.divHeader{
+	max-width: 1071px;
+	margin: auto;
+	padding: 35px;
+}
+
+.divHeader h1{
+	text-transform: uppercase;
+	display: inline-block;
+	font-family: 25px;
+}
+
+.sectionNombre{
+	background-color: #00bd9d;
+}
+
+.ulHeader{
+	float: right;
+}
+.ulHeader li{
+	display: inline-block;
+	list-style: none;
+	text-transform: uppercase;
+	margin-left: 20px;
+	font-size: 10px;
+}
+
+.imgJuan{
+	margin: auto;
+	width: 20%;
+    display: inherit;
+    border-radius: 50%;
+}
+
+.divContImgJuan{
+	max-width: 1071px;
+	margin: auto;
+	padding: 180px 0 40px 0;
+
+}
+
+.sectionNombre h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+.sectionNombre p{
+	text-align: center;
+	font-size: 15px;
+	padding: 0 0 80px 0;
+}
+
+.sectionPortfolio h1{
+	color: black;
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	padding: 60px 0 20px 0;
+}
+
+.divPortfolio{
+    margin: auto;
+    max-width: 1071px;
+    width: 1071px;
+    height: 513px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* align-content: flex-start; */
+    justify-content: space-between;
+}
+
+.artPortfolio{
+	width: 33%;
+	height: 33%;
+}
+
+.sectionAbout{
+	background-color: #00bd9d;
+	color: white;
+}
+
+.sectionAbout h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;	
+	padding: 80px 0 0 0;
+}
+
+.divAbout{
+	max-width: 1071px;
+	margin: auto;
+
+}
+
+.artAbout{
+	font-size: 10px;
+	line-height: 15px;
+	display: inline-block;
+	max-width: 20%;
+	margin: auto;
+	padding: 0 0 80px 0;
+}
